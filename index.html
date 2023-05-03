@@ -1,0 +1,58 @@
+<div id="app">
+
+  <span class="negrita">Nombre:</span> Fener Posada
+  <br />
+  <span class="negrita">URL:</span> 
+    <a href="https://js-nyhhvw.stackblitz.io" target="_blank">
+      https://js-nyhhvw.stackblitz.io
+    </a>
+  <br />
+  <span class="negrita"> GitHub:</span> 
+  <a href="https://github.com/Fener-Posada/08MBID---Visualizacion-de-Datos" target="_blank">
+    https://github.com/Fener-Posada/08MBID---Visualizacion-de-Datos
+  </a>
+  
+  <h1> Trabajo Práctico </h1>
+
+  <center>
+  <h2>  Global Terrorism Database </h2>
+  <h3>    More than 180,000 terrorist attacks worldwide, 1970-2017 </h3>
+  <center>
+
+  <p> La Base de Datos Global de Terrorismo (GTD) es una base de datos de código abierto que contiene información sobre ataques terroristas en todo el mundo desde 1970 hasta 2017. La GTD proporciona datos sistemáticos sobre incidentes terroristas tanto nacionales como internacionales que han ocurrido durante este período y ahora incluye más de 180.000 ataques. Los investigadores del Consorcio Nacional para el Estudio del Terrorismo y las Respuestas al Terrorismo (START), con sede en la Universidad de Maryland, son los encargados de mantener esta base de datos. <a href="https://www.kaggle.com/datasets/START-UMD/gtd?resource=download" target="_blank"> https://www.kaggle.com/datasets/START-UMD/gtd?resource=download</a> </p>      
+  <span class="negrita"> Objetivo del analisis:</span> 
+  <p>  Explorar el dataset de atentados terroristas para identificar patrones y tendencias globales en la perpetración de estos eventos, con el objetivo de mejorar la comprensión y la prevención de la violencia extremista en todo el mundo.</p>      
+
+  <iframe width="853" height="388" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSn7j-V5jJF22xcyCV-iielWRNkAqxHV3sRa-YndfgtOWJioBrt9XnitYkHY_HOyq9gsbP-QOotE-X4/pubchart?oid=1804709492&amp;format=interactive"></iframe>
+
+  <p>Google sheets: <a href="https://docs.google.com/spreadsheets/d/1-eYUp3xVZPkqfUfrK3y2hcsXo_w4g4jhCPkRfnjLCNY/edit#gid=334983021">https://docs.google.com/spreadsheets/d/1-eYUp3xVZPkqfUfrK3y2hcsXo_w4g4jhCPkRfnjLCNY/edit#gid=334983021</a></p>
+
+  <p> ¿Cómo ha evolucionado la frecuencia de ataques terroristas en el tiempo? La línea roja representa el número de ataques terroristas a nivel mundial desde 1970 hasta 2017. El gráfico muestra que el número de ataques terroristas se mantuvo relativamente estable hasta mediados de la década de 2000, después de lo cual hubo un aumento significativo en la frecuencia de ataques terroristas. El pico máximo de ataques terroristas ocurrió en el año 2014, seguido de una disminución gradual en la frecuencia de ataques terroristas en los años siguientes.  </p>
+
+  <p> Un gráfico de líneas es una buena opción para representar la evolución de una variable a lo largo del tiempo. </p> 
+  <p> Para estas visualizaciones, se utilizó Google sheet al ser conocido por su facilidad de uso, permite una gran cantidad de personalización en términos de colores, etiquetas, títulos y otros aspectos visuales, lo que facilita la creación de gráficos personalizados. Sin embargo, para conjuntos de datos grandes y complejos o para visualizaciones más avanzadas, es posible que se necesite una herramienta más especializada o una combinación de herramientas para lograr una visualización efectiva. </p>
+
+  <iframe width="853" height="388" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSn7j-V5jJF22xcyCV-iielWRNkAqxHV3sRa-YndfgtOWJioBrt9XnitYkHY_HOyq9gsbP-QOotE-X4/pubchart?oid=658517359&amp;format=interactive"></iframe>
+
+  <p> ¿Qué tipos de atentados son más frecuentes ? Los atentados con bomba son el tipo de ataque más común en la base de datos de GTD, representando aproximadamente el 48,6% de todos los ataques terroristas registrados. Los ataques armados y los asesinatos selectivos también son tipos de ataques comunes, mientras que los secuestros y los incidentes de toma de rehenes son menos frecuentes pero aún representan un porcentaje significativo de los ataques terroristas en todo el mundo. </p>
+
+  <p> Un gráfico de barras es adecuado para este tipo de pregunta porque permite comparar visualmente la frecuencia de cada tipo de ataque. </p>
+
+  <h1>Mapa de calor de la frecuencia de ataques terroristas por país</h1>
+	<p>A continuación se muestra un mapa de calor que indica la frecuencia de ataques terroristas por país.</p>
+  <img src="https://raw.githubusercontent.com/Fener-Posada/08MBID---Visualizacion-de-Datos/main/mapa.png" style="max-width: 100%; max-height: 80%;" alt="Mapa de calor de la frecuencia de ataques terroristas por país">
+  <p>Codigo del mapa: <a href="https://colab.research.google.com/drive/1ui3MF47aOQzwvVqAwL89mKeNKwAcmZ-Z?usp=sharing">https://colab.research.google.com/drive/1ui3MF47aOQzwvVqAwL89mKeNKwAcmZ-Z?usp=sharing</a></p>
+
+  <p>Un mapa de calor es una excelente opción para visualizar la frecuencia de los ataques terroristas por país porque nos permite ver patrones y tendencias geográficas de manera clara y fácil de interpretar. Los países con frecuencia alta de ataques terroristas tendrían tonos más oscuros en el mapa, mientras que los países con frecuencia baja tendrían tonos más claros. Además, un mapa de calor nos permite comparar la frecuencia de ataques entre países de manera visual y rápida.</p>
+
+  <p>Para este grafico se utilizó Python, una excelente herramienta para visualizar gráficos debido a su amplia variedad de librerías y su flexibilidad en el manejo de diferentes formatos de datos. A demás de permitir procesar grandes cantidades de datos</p>
+
+  <h1>Diagrama de arbol de ataques terroristas por país</h1>
+  <img src="https://raw.githubusercontent.com/Fener-Posada/08MBID---Visualizacion-de-Datos/main/Capture.JPG" style="max-width: 100%; max-height: 80%;" alt="Mapa de calor de la frecuencia de ataques terroristas por país">
+  <p>Codigo del diagrama: <a href="https://raw.githubusercontent.com/Fener-Posada/08MBID---Visualizacion-de-Datos/main/Capture.JPG">https://colab.research.google.com/drive/1ui3MF47aOQzwvVqAwL89mKeNKwAcmZ-Z?usp=sharing</a>
+
+  <p> Este  diagrama de árbol interactivo  muestra la cantidad de atentados por país y continente. Los países se agrupan por continente, y el tamaño de cada cuadro representa el número de ataques en ese país. También podemos ver la cantidad exacta de ataques en cada país al pasar el cursor sobre el cuadro correspondiente.</p>
+    
+    <p>  Este tipo de visualización es útil para observar de manera rápida y clara la distribución de los ataques en diferentes regiones del mundo, permitiendo detectar patrones o tendencias. Además, el uso de diferentes tonalidades de color en el árbol permite visualizar la magnitud de la cantidad de ataques en cada país, y la interactividad de la figura permite explorar la información en detalle al pasar el cursor sobre cada uno de los nodos.</p>
+
+</div>
